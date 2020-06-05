@@ -71,7 +71,7 @@
 
 	<style >
 		.slider{
-			background: url("img/Inicio.png");
+			background: url("../img/inicio.png");
 			height: 50vh;
 			background-size: cover;
 			background-position: center;
