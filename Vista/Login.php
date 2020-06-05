@@ -9,7 +9,7 @@
 
 	<style >
 		.slider{
-			background: url("../img/Inicio.png");
+			
 			height: 50vh;
 			background-size: cover;
 			background-position: center;
@@ -84,7 +84,8 @@ input{
 </head>
 <body>
 
-	<section class="container-fluid slider d-flex justify-content-center align-items-center">
+	<section class="container-fluid  d-flex justify-content-center align-items-center">
+		<img src="../img/Inicio.png" class="slider">
 		<h1 class="display-4"><strong><i>InventorySystemRTE</i></strong></h1>
 	</section>
 	
