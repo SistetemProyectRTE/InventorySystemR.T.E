@@ -62,7 +62,7 @@
       		
     	</div>
     	<div class="d-flex flex-row justify-content-center">
-    		<a class="btn btn-primary active mr-2 " href="Login.php" role="button" >Login</a>
+    		<a class="btn btn-primary active mr-2 " href="Vista/Login.php" role="button" >Login</a>
     		
       		<a class="btn btn-primary active " href="#register" role="button" data-toggle="modal">Register</a>
     	</div>
