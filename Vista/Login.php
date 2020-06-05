@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 		
 	<meta http-equiv="x-ua-compatible" content="ie-edge">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="..css/bootstrap.min.css">
 
 	<style >
 		.slider{
