@@ -110,7 +110,7 @@
 	
 	
 <!-- Ventana Register-->
-	<form action="../Controlador/Controlador.php" method="POST" class="form-register">
+	<form action="Controlador/Controlador.php" method="POST" class="form-register">
   <div class="modal" tabindex="-1" role="dialog" id="register" align="center">
   <div class="modal-dialog" role="document">
       <div class="modal-content">

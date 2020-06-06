@@ -10,10 +10,10 @@ class conexion
 	public function conexion()
 	{
 
-    $this->usuario = "root";
-	$this->password = "";
-    $this->servidor = "localhost";
-	$this->basededatos = "InventorySystemRTE";
+    $this->usuario = "jrcnwibdcomrpl";
+	$this->password = "7ff58c81174ef10b5c408cec558e41d1052170023eac4551f2e07a616c0aa5bf";
+    $this->servidor = "ec2-3-231-16-122.compute-1.amazonaws.com";
+	$this->basededatos = "d33hiq1t087d4v";
 
 	}
 	
