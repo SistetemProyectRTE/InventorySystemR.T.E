@@ -44,7 +44,7 @@ class DAO_Inventory
 	           echo 'Usuario no registrado';
 	             
         }
-         mysqli_close($cc);
+         pg_close($cc);
          return $i;
 
 	}
