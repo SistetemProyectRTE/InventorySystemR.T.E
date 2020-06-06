@@ -19,7 +19,7 @@ class conexion
 	
 	public function conectar ()
 	{		
-    $conexion1 = mysqli_connect( $this->servidor, $this->usuario,$this->password,$this->basededatos ) or die ("No se ha podido conectar al servidor de Base de datos");
+    $conexion1 = pg_connect( $this->servidor, $this->usuario,$this->password,$this->basededatos ) or die ("No se ha podido conectar al servidor de Base de datos");
 
     return $conexion1;
     
