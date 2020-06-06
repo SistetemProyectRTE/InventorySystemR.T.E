@@ -22,7 +22,7 @@ class DAO_Inventory
 
          $i = $cc->query("INSERT INTO Usuario(Cedula,Nombre,Apellido,Contraseña) VALUES (" . $CC . ",'" . $AA . "','" . $BB . "',md5('".$DD."') )");
 	    $seleccionar=$cc->query("SELECT UsuarioID FROM Usuario ");
-		while ($columna = mysqli_fetch_array( $seleccionar ))
+		while ($columna = pg_fetch_array( $seleccionar ))
           		{
           		 	$U=$columna['UsuarioID'];
           		}
