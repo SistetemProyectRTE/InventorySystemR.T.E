@@ -19,7 +19,7 @@ class DAO_Inventory
 		$c1 = new conexion();
         $cc=$c1->conectar();
 	
-
+echo "",$AA;
          $i = $cc->query("INSERT INTO Usuario(Cedula,Nombre,Apellido,Contraseña) VALUES (" . $CC . ",'" . $AA . "','" . $BB . "',md5('".$DD."') )");
 	    $seleccionar=$cc->query("SELECT UsuarioID FROM Usuario ");
 		while ($columna = pg_fetch_array( $seleccionar ))
