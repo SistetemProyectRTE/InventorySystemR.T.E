@@ -14,6 +14,7 @@
 		$c=$_POST["Cedula"];
 		$d=$_POST["Contraseña"];
         $r=3;
+        echo "",$a;
 		require_once '../Modelo/Modelo.php';
 		$M = new Modelo_Inventory($a,$b,$c,$d,$r);
 		require_once '../Modelo/DAO.php';
